@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+nav {
+	font-size: 0.8em;
+	background-color: white;
+}
+
+.fs-6 {
+	color: #19345e;
+	font-size: 2em !important;
+}
+
+.fs-1 {
+	color: #19345e;
+	font-size: 5.3em !important;
+}
+
+.fs-4 {
+	color: #19345e;
+	font-size: 2.1em !important;
+}
+
+h3 {
+	color: #19345e;
+}
+
+section {
+	background-image: url("img/bg-img.png");
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#profile-image {
+	border-radius: 100%;
+}
+
+.nav-link {
+	color: #19345e !important;
+}
+
+.nav-link:hover {
+	color: #f47522 !important;
+}
+
+.active {
+	color: #f47522 !important;
+}
+
+#custom-btn {
+	border-radius: 50px;
+	background-color: #f47522;
+}
+
+#side-image {
+	background-image: url("img/charles-rRWiVQzLm7k-unsplash.jpg");
+	background-size: cover;
+}
+
+#overlay {
+	background: #19345ea6;
+	z-index: 2;
+}
+
+#form {
+	padding: 5em 6em;
+}
+
+@media (max-width: 576px) {
+	section {
+		font-size: 0.45em;
+	}
+	#side-image {
+		height: 25%;
+	}
+	#side-image-logo {
+		width: 50%;
+	}
+}
+
+@media (min-width: 576px) {
+	section {
+		font-size: 0.6em;
+	}
+}
+
+@media (min-width: 992px) {
+	section {
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 1200px) {
+	section {
+		font-size: 1.2em;
+	}
+}
